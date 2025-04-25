@@ -86,6 +86,12 @@ main::before {
     max-width: 970px; /* Define uma largura máxima para o parágrafo */
 }
 
+.extra p{
+    font-family: Arial;
+    color: #e2d8d8;
+
+}
+
 
 .rank {
     border-color: red;
