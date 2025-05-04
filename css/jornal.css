@@ -48,6 +48,11 @@ nav a {
 
 }
 
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 
 .conteudo h1{
     padding-top:5px;
@@ -57,13 +62,12 @@ nav a {
     text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.conteudo h1:hover{
+    color: paleturquoise;
 }
 
-.coluna {
+
+.coluna,.rodape {
     width: 48%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -72,4 +76,19 @@ nav a {
     color: rgb(235, 226, 226);
 }
 
+.rodape{
+    text-decoration: underline;
+}
 
+.img{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+.rodape:active #name{
+    font-size: 40px;
+}
+.rodape:active #fonte{
+    opacity: 0;
+}
